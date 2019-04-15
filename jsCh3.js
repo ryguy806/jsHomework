@@ -1,7 +1,7 @@
 function heeHaw(index)
 {
     if(index >=1){
-        for(i=1; i <= index; i++)
+        for(let i=1; i <= index; i++)
         {
             if(i % 3 === 0 && i % 5 !== 0){
                 console.log("Hee!");
